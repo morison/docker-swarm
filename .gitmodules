@@ -1,3 +1,6 @@
 [submodule "todoapi"]
 	path = todoapi
 	url = https://github.com/gihyodocker/todoapi
+[submodule "todonginx"]
+	path = todonginx
+	url = https://github.com/gihyodocker/todonginx

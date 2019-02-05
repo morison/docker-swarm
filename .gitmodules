@@ -8,3 +8,6 @@
 [submodule "todoweb"]
 	path = todoweb
 	url = https://github.com/gihyodocker/todoweb
+[submodule "tododb"]
+	path = tododb
+	url = https://github.com/gihyodocker/tododb

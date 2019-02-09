@@ -3,7 +3,7 @@ services:
   nginx:
     image: gihyodocker/nginx-proxy:latest
     deploy:
-      replicas: 2
+      replicas: 1
       placement:
         constraints: [node.role != manager]
     environment:
@@ -16,7 +16,7 @@ services:
   api:
     image: registry:5000/example/echo:latest
     deploy:
-      replicas: 2
+      replicas: 1
       placement:
         constraints: [node.role != manager]
     networks:

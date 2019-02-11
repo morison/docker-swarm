@@ -1,7 +1,3 @@
-[submodule "todonginx"]
-	path = todonginx
-	url = https://github.com/gihyodocker/todonginx
-  ignore = dirty
 [submodule "todoweb"]
 	path = todoweb
 	url = https://github.com/gihyodocker/todoweb
@@ -11,3 +7,6 @@
 [submodule "todoapi"]
 	path = todoapi
 	url = https://github.com/gihyodocker/todoapi
+[submodule "todonginx"]
+	path = todonginx
+	url = https://github.com/gihyodocker/todonginx
